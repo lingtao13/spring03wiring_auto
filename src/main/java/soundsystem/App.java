@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  **/
 @ComponentScan
 public class App {
-    public static final Logger logger = LogManager.getLogger(App.class);
+    private static final Logger logger = LogManager.getLogger(App.class);
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(App.class);
         CDPlayer player = context.getBean(CDPlayer.class);

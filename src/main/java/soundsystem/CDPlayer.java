@@ -12,7 +12,6 @@ public class CDPlayer {
 
     private CompactDisk cd;
 
-
     public CDPlayer() {
         super();
         System.out.println("CDPlayer无参构造函数");
