@@ -9,7 +9,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class CDPlayer {
 
+
     private CompactDisk cd;
+
 
     public CDPlayer() {
         super();
